@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HZTabBarController.h
 //  Xiaohongshu
 //
 //  Created by 张慧子 on 16/4/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HZTabBarController : UITabBarController
 
 @end
-

@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		BD4EEF1F1CC4C6A000FF1B1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF1E1CC4C6A000FF1B1D /* main.m */; };
 		BD4EEF221CC4C6A000FF1B1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF211CC4C6A000FF1B1D /* AppDelegate.m */; };
-		BD4EEF251CC4C6A000FF1B1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF241CC4C6A000FF1B1D /* ViewController.m */; };
-		BD4EEF281CC4C6A000FF1B1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4EEF261CC4C6A000FF1B1D /* Main.storyboard */; };
 		BD4EEF2B1CC4C6A000FF1B1D /* Xiaohongshu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF291CC4C6A000FF1B1D /* Xiaohongshu.xcdatamodeld */; };
 		BD4EEF2D1CC4C6A000FF1B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4EEF2C1CC4C6A000FF1B1D /* Assets.xcassets */; };
 		BD4EEF301CC4C6A000FF1B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4EEF2E1CC4C6A000FF1B1D /* LaunchScreen.storyboard */; };
 		BD4EEF3B1CC4C6A000FF1B1D /* XiaohongshuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF3A1CC4C6A000FF1B1D /* XiaohongshuTests.m */; };
 		BD4EEF461CC4C6A000FF1B1D /* XiaohongshuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF451CC4C6A000FF1B1D /* XiaohongshuUITests.m */; };
+		BD4EEF761CC4CC6500FF1B1D /* HZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF751CC4CC6500FF1B1D /* HZTabBarController.m */; };
+		BD4EEF7C1CC4CD2200FF1B1D /* HZDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF7B1CC4CD2200FF1B1D /* HZDiscoverController.m */; };
+		BD4EEF7F1CC4CD3C00FF1B1D /* HZHomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF7E1CC4CD3C00FF1B1D /* HZHomePageController.m */; };
+		BD4EEF821CC4CE5800FF1B1D /* HZMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF811CC4CE5800FF1B1D /* HZMessageController.m */; };
+		BD4EEF851CC4CEF800FF1B1D /* HZMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF841CC4CEF800FF1B1D /* HZMineController.m */; };
+		BD4EEF881CC4CF6E00FF1B1D /* HZDiscoverNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF871CC4CF6E00FF1B1D /* HZDiscoverNavController.m */; };
+		BD4EEF8B1CC4CF8300FF1B1D /* HZHomePageNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF8A1CC4CF8300FF1B1D /* HZHomePageNavController.m */; };
+		BD4EEF8E1CC4CFAC00FF1B1D /* HZMessageNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF8D1CC4CFAC00FF1B1D /* HZMessageNavController.m */; };
+		BD4EEF911CC4CFBE00FF1B1D /* HZMineNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF901CC4CFBE00FF1B1D /* HZMineNavController.m */; };
+		BD4EEF941CC4D00500FF1B1D /* HZShoppingNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF931CC4D00500FF1B1D /* HZShoppingNavController.m */; };
+		BD4EEF971CC4D01E00FF1B1D /* HZShoppingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF961CC4D01E00FF1B1D /* HZShoppingController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +46,9 @@
 
 /* Begin PBXFileReference section */
 		BD4EEF1A1CC4C6A000FF1B1D /* Xiaohongshu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xiaohongshu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD4EEF1E1CC4C6A000FF1B1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BD4EEF201CC4C6A000FF1B1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BD4EEF211CC4C6A000FF1B1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BD4EEF231CC4C6A000FF1B1D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BD4EEF241CC4C6A000FF1B1D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BD4EEF271CC4C6A000FF1B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD4EEF1E1CC4C6A000FF1B1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../main.m; sourceTree = "<group>"; };
+		BD4EEF201CC4C6A000FF1B1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		BD4EEF211CC4C6A000FF1B1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		BD4EEF2A1CC4C6A000FF1B1D /* Xiaohongshu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Xiaohongshu.xcdatamodel; sourceTree = "<group>"; };
 		BD4EEF2C1CC4C6A000FF1B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD4EEF2F1CC4C6A000FF1B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +59,28 @@
 		BD4EEF411CC4C6A000FF1B1D /* XiaohongshuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiaohongshuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4EEF451CC4C6A000FF1B1D /* XiaohongshuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaohongshuUITests.m; sourceTree = "<group>"; };
 		BD4EEF471CC4C6A000FF1B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4EEF741CC4CC6500FF1B1D /* HZTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZTabBarController.h; sourceTree = "<group>"; };
+		BD4EEF751CC4CC6500FF1B1D /* HZTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZTabBarController.m; sourceTree = "<group>"; };
+		BD4EEF7A1CC4CD2200FF1B1D /* HZDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZDiscoverController.h; sourceTree = "<group>"; };
+		BD4EEF7B1CC4CD2200FF1B1D /* HZDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZDiscoverController.m; sourceTree = "<group>"; };
+		BD4EEF7D1CC4CD3C00FF1B1D /* HZHomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZHomePageController.h; sourceTree = "<group>"; };
+		BD4EEF7E1CC4CD3C00FF1B1D /* HZHomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZHomePageController.m; sourceTree = "<group>"; };
+		BD4EEF801CC4CE5800FF1B1D /* HZMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZMessageController.h; sourceTree = "<group>"; };
+		BD4EEF811CC4CE5800FF1B1D /* HZMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZMessageController.m; sourceTree = "<group>"; };
+		BD4EEF831CC4CEF800FF1B1D /* HZMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZMineController.h; sourceTree = "<group>"; };
+		BD4EEF841CC4CEF800FF1B1D /* HZMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZMineController.m; sourceTree = "<group>"; };
+		BD4EEF861CC4CF6E00FF1B1D /* HZDiscoverNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZDiscoverNavController.h; sourceTree = "<group>"; };
+		BD4EEF871CC4CF6E00FF1B1D /* HZDiscoverNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZDiscoverNavController.m; sourceTree = "<group>"; };
+		BD4EEF891CC4CF8300FF1B1D /* HZHomePageNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZHomePageNavController.h; sourceTree = "<group>"; };
+		BD4EEF8A1CC4CF8300FF1B1D /* HZHomePageNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZHomePageNavController.m; sourceTree = "<group>"; };
+		BD4EEF8C1CC4CFAC00FF1B1D /* HZMessageNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZMessageNavController.h; sourceTree = "<group>"; };
+		BD4EEF8D1CC4CFAC00FF1B1D /* HZMessageNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZMessageNavController.m; sourceTree = "<group>"; };
+		BD4EEF8F1CC4CFBE00FF1B1D /* HZMineNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZMineNavController.h; sourceTree = "<group>"; };
+		BD4EEF901CC4CFBE00FF1B1D /* HZMineNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZMineNavController.m; sourceTree = "<group>"; };
+		BD4EEF921CC4D00500FF1B1D /* HZShoppingNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZShoppingNavController.h; sourceTree = "<group>"; };
+		BD4EEF931CC4D00500FF1B1D /* HZShoppingNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZShoppingNavController.m; sourceTree = "<group>"; };
+		BD4EEF951CC4D01E00FF1B1D /* HZShoppingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZShoppingController.h; sourceTree = "<group>"; };
+		BD4EEF961CC4D01E00FF1B1D /* HZShoppingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZShoppingController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +131,8 @@
 		BD4EEF1C1CC4C6A000FF1B1D /* Xiaohongshu */ = {
 			isa = PBXGroup;
 			children = (
-				BD4EEF201CC4C6A000FF1B1D /* AppDelegate.h */,
-				BD4EEF211CC4C6A000FF1B1D /* AppDelegate.m */,
-				BD4EEF231CC4C6A000FF1B1D /* ViewController.h */,
-				BD4EEF241CC4C6A000FF1B1D /* ViewController.m */,
-				BD4EEF261CC4C6A000FF1B1D /* Main.storyboard */,
+				BD4EEF531CC4C8FA00FF1B1D /* Classes */,
 				BD4EEF2C1CC4C6A000FF1B1D /* Assets.xcassets */,
-				BD4EEF2E1CC4C6A000FF1B1D /* LaunchScreen.storyboard */,
 				BD4EEF311CC4C6A000FF1B1D /* Info.plist */,
 				BD4EEF291CC4C6A000FF1B1D /* Xiaohongshu.xcdatamodeld */,
 				BD4EEF1D1CC4C6A000FF1B1D /* Supporting Files */,
@@ -120,7 +143,6 @@
 		BD4EEF1D1CC4C6A000FF1B1D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BD4EEF1E1CC4C6A000FF1B1D /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,6 +163,295 @@
 				BD4EEF471CC4C6A000FF1B1D /* Info.plist */,
 			);
 			path = XiaohongshuUITests;
+			sourceTree = "<group>";
+		};
+		BD4EEF531CC4C8FA00FF1B1D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF541CC4C8FA00FF1B1D /* Discover */,
+				BD4EEF581CC4C8FA00FF1B1D /* HomePage */,
+				BD4EEF5C1CC4C8FA00FF1B1D /* Main */,
+				BD4EEF601CC4C8FA00FF1B1D /* Message */,
+				BD4EEF641CC4C8FA00FF1B1D /* Mine */,
+				BD4EEF681CC4C8FA00FF1B1D /* Other */,
+				BD4EEF691CC4C8FA00FF1B1D /* Setting */,
+				BD4EEF6D1CC4C8FA00FF1B1D /* Shopping */,
+				BD4EEF711CC4C8FA00FF1B1D /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BD4EEF541CC4C8FA00FF1B1D /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF551CC4C8FA00FF1B1D /* Controller */,
+				BD4EEF561CC4C8FA00FF1B1D /* Model */,
+				BD4EEF571CC4C8FA00FF1B1D /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		BD4EEF551CC4C8FA00FF1B1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF7A1CC4CD2200FF1B1D /* HZDiscoverController.h */,
+				BD4EEF7B1CC4CD2200FF1B1D /* HZDiscoverController.m */,
+				BD4EEF861CC4CF6E00FF1B1D /* HZDiscoverNavController.h */,
+				BD4EEF871CC4CF6E00FF1B1D /* HZDiscoverNavController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BD4EEF561CC4C8FA00FF1B1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD4EEF571CC4C8FA00FF1B1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD4EEF581CC4C8FA00FF1B1D /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF591CC4C8FA00FF1B1D /* Controller */,
+				BD4EEF5A1CC4C8FA00FF1B1D /* Model */,
+				BD4EEF5B1CC4C8FA00FF1B1D /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		BD4EEF591CC4C8FA00FF1B1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF7D1CC4CD3C00FF1B1D /* HZHomePageController.h */,
+				BD4EEF7E1CC4CD3C00FF1B1D /* HZHomePageController.m */,
+				BD4EEF891CC4CF8300FF1B1D /* HZHomePageNavController.h */,
+				BD4EEF8A1CC4CF8300FF1B1D /* HZHomePageNavController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BD4EEF5A1CC4C8FA00FF1B1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD4EEF5B1CC4C8FA00FF1B1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD4EEF5C1CC4C8FA00FF1B1D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF5D1CC4C8FA00FF1B1D /* Controller */,
+				BD4EEF5E1CC4C8FA00FF1B1D /* Model */,
+				BD4EEF5F1CC4C8FA00FF1B1D /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BD4EEF5D1CC4C8FA00FF1B1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF741CC4CC6500FF1B1D /* HZTabBarController.h */,
+				BD4EEF751CC4CC6500FF1B1D /* HZTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BD4EEF5E1CC4C8FA00FF1B1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD4EEF5F1CC4C8FA00FF1B1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD4EEF601CC4C8FA00FF1B1D /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF611CC4C8FA00FF1B1D /* Controller */,
+				BD4EEF621CC4C8FA00FF1B1D /* Model */,
+				BD4EEF631CC4C8FA00FF1B1D /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		BD4EEF611CC4C8FA00FF1B1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF801CC4CE5800FF1B1D /* HZMessageController.h */,
+				BD4EEF811CC4CE5800FF1B1D /* HZMessageController.m */,
+				BD4EEF8C1CC4CFAC00FF1B1D /* HZMessageNavController.h */,
+				BD4EEF8D1CC4CFAC00FF1B1D /* HZMessageNavController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BD4EEF621CC4C8FA00FF1B1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD4EEF631CC4C8FA00FF1B1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD4EEF641CC4C8FA00FF1B1D /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF651CC4C8FA00FF1B1D /* Controller */,
+				BD4EEF661CC4C8FA00FF1B1D /* Model */,
+				BD4EEF671CC4C8FA00FF1B1D /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		BD4EEF651CC4C8FA00FF1B1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF831CC4CEF800FF1B1D /* HZMineController.h */,
+				BD4EEF841CC4CEF800FF1B1D /* HZMineController.m */,
+				BD4EEF8F1CC4CFBE00FF1B1D /* HZMineNavController.h */,
+				BD4EEF901CC4CFBE00FF1B1D /* HZMineNavController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BD4EEF661CC4C8FA00FF1B1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD4EEF671CC4C8FA00FF1B1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD4EEF681CC4C8FA00FF1B1D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF201CC4C6A000FF1B1D /* AppDelegate.h */,
+				BD4EEF211CC4C6A000FF1B1D /* AppDelegate.m */,
+				BD4EEF1E1CC4C6A000FF1B1D /* main.m */,
+				BD4EEF2E1CC4C6A000FF1B1D /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BD4EEF691CC4C8FA00FF1B1D /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF6A1CC4C8FA00FF1B1D /* Controller */,
+				BD4EEF6B1CC4C8FA00FF1B1D /* Model */,
+				BD4EEF6C1CC4C8FA00FF1B1D /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		BD4EEF6A1CC4C8FA00FF1B1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BD4EEF6B1CC4C8FA00FF1B1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD4EEF6C1CC4C8FA00FF1B1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD4EEF6D1CC4C8FA00FF1B1D /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF6E1CC4C8FA00FF1B1D /* Controller */,
+				BD4EEF6F1CC4C8FA00FF1B1D /* Model */,
+				BD4EEF701CC4C8FA00FF1B1D /* View */,
+			);
+			path = Shopping;
+			sourceTree = "<group>";
+		};
+		BD4EEF6E1CC4C8FA00FF1B1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF921CC4D00500FF1B1D /* HZShoppingNavController.h */,
+				BD4EEF931CC4D00500FF1B1D /* HZShoppingNavController.m */,
+				BD4EEF951CC4D01E00FF1B1D /* HZShoppingController.h */,
+				BD4EEF961CC4D01E00FF1B1D /* HZShoppingController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BD4EEF6F1CC4C8FA00FF1B1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD4EEF701CC4C8FA00FF1B1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD4EEF711CC4C8FA00FF1B1D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				BD4EEF721CC4C8FA00FF1B1D /* RootTool(根控制器工具类) */,
+				BD4EEF731CC4C8FA00FF1B1D /* saveTool(存储工具类) */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		BD4EEF721CC4C8FA00FF1B1D /* RootTool(根控制器工具类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "RootTool(根控制器工具类)";
+			sourceTree = "<group>";
+		};
+		BD4EEF731CC4C8FA00FF1B1D /* saveTool(存储工具类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "saveTool(存储工具类)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +516,7 @@
 		BD4EEF121CC4C6A000FF1B1D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HZ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "张慧子";
 				TargetAttributes = {
@@ -251,7 +563,6 @@
 			files = (
 				BD4EEF301CC4C6A000FF1B1D /* LaunchScreen.storyboard in Resources */,
 				BD4EEF2D1CC4C6A000FF1B1D /* Assets.xcassets in Resources */,
-				BD4EEF281CC4C6A000FF1B1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +587,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD4EEF251CC4C6A000FF1B1D /* ViewController.m in Sources */,
+				BD4EEF881CC4CF6E00FF1B1D /* HZDiscoverNavController.m in Sources */,
 				BD4EEF2B1CC4C6A000FF1B1D /* Xiaohongshu.xcdatamodeld in Sources */,
+				BD4EEF761CC4CC6500FF1B1D /* HZTabBarController.m in Sources */,
 				BD4EEF221CC4C6A000FF1B1D /* AppDelegate.m in Sources */,
+				BD4EEF7F1CC4CD3C00FF1B1D /* HZHomePageController.m in Sources */,
+				BD4EEF851CC4CEF800FF1B1D /* HZMineController.m in Sources */,
+				BD4EEF821CC4CE5800FF1B1D /* HZMessageController.m in Sources */,
+				BD4EEF8E1CC4CFAC00FF1B1D /* HZMessageNavController.m in Sources */,
+				BD4EEF911CC4CFBE00FF1B1D /* HZMineNavController.m in Sources */,
+				BD4EEF8B1CC4CF8300FF1B1D /* HZHomePageNavController.m in Sources */,
+				BD4EEF941CC4D00500FF1B1D /* HZShoppingNavController.m in Sources */,
+				BD4EEF7C1CC4CD2200FF1B1D /* HZDiscoverController.m in Sources */,
 				BD4EEF1F1CC4C6A000FF1B1D /* main.m in Sources */,
+				BD4EEF971CC4D01E00FF1B1D /* HZShoppingController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,20 +636,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BD4EEF261CC4C6A000FF1B1D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD4EEF271CC4C6A000FF1B1D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BD4EEF2E1CC4C6A000FF1B1D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BD4EEF2F1CC4C6A000FF1B1D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -505,6 +819,7 @@
 				BD4EEF4C1CC4C6A000FF1B1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD4EEF4D1CC4C6A000FF1B1D /* Build configuration list for PBXNativeTarget "XiaohongshuTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +828,7 @@
 				BD4EEF4F1CC4C6A000FF1B1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD4EEF501CC4C6A000FF1B1D /* Build configuration list for PBXNativeTarget "XiaohongshuUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +837,7 @@
 				BD4EEF521CC4C6A000FF1B1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

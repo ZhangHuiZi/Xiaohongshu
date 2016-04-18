@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "HZTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //添加界面
+    self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    HZTabBarController* tabBarController=[[HZTabBarController alloc]init];
+    self.window.rootViewController=tabBarController;
+    
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 
