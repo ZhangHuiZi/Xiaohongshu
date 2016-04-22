@@ -7,7 +7,20 @@
 //
 
 #import "HZShoppingNavController.h"
-
+#import "HZShoppingController.h"
 @implementation HZShoppingNavController
+
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    //
+}
++(instancetype)shoppingNavController
+{
+    HZShoppingController* shoppingVC=[[HZShoppingController alloc]init];
+    HZShoppingNavController* shoppingNavVC=[[self alloc]initWithRootViewController:shoppingVC];
+    return shoppingNavVC;
+}
 
 @end

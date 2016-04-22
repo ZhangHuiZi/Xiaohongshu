@@ -27,7 +27,7 @@
     HZHomePageNavController* homePageNavVC=[[HZHomePageNavController alloc]initWithRootViewController:homePageVC];
     
     HZDiscoverNavController* discoverNavVC=[[HZDiscoverNavController alloc]init];
-    HZShoppingNavController* shoppingNavVC=[[HZShoppingNavController alloc]init];
+    HZShoppingNavController* shoppingNavVC=[HZShoppingNavController shoppingNavController];
     HZMessageNavController* messageNavVC=[[HZMessageNavController alloc]init];
     HZMineNavController* mineNavVC=[[HZMineNavController alloc]init];
     

@@ -10,4 +10,5 @@
 
 @interface HZShoppingNavController : UINavigationController
 
++(instancetype)shoppingNavController;
 @end
