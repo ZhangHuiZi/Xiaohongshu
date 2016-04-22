@@ -12,6 +12,7 @@
 #import "HZShoppingNavController.h"
 #import "HZMessageNavController.h"
 #import "HZMineNavController.h"
+#import "HZHomePageController.h"
 
 @implementation HZTabBarController
 
@@ -21,8 +22,10 @@
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
     
-    //添加HZTabBar的N
-    HZHomePageNavController* homePageNavVC=[[HZHomePageNavController alloc]init];
+    //添加HZTabBar的Nav
+    HZHomePageController* homePageVC=[[HZHomePageController alloc]init];
+    HZHomePageNavController* homePageNavVC=[[HZHomePageNavController alloc]initWithRootViewController:homePageVC];
+    
     HZDiscoverNavController* discoverNavVC=[[HZDiscoverNavController alloc]init];
     HZShoppingNavController* shoppingNavVC=[[HZShoppingNavController alloc]init];
     HZMessageNavController* messageNavVC=[[HZMessageNavController alloc]init];

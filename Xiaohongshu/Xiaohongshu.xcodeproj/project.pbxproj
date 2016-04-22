@@ -25,6 +25,8 @@
 		BD4EEF911CC4CFBE00FF1B1D /* HZMineNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF901CC4CFBE00FF1B1D /* HZMineNavController.m */; };
 		BD4EEF941CC4D00500FF1B1D /* HZShoppingNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF931CC4D00500FF1B1D /* HZShoppingNavController.m */; };
 		BD4EEF971CC4D01E00FF1B1D /* HZShoppingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4EEF961CC4D01E00FF1B1D /* HZShoppingController.m */; };
+		BDF5B1351CC71EE900590FAE /* HZHomePageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B1331CC71EE900590FAE /* HZHomePageCollectionViewCell.m */; };
+		BDF5B1361CC71EE900590FAE /* HZHomePageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF5B1341CC71EE900590FAE /* HZHomePageCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,10 @@
 		BD4EEF931CC4D00500FF1B1D /* HZShoppingNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZShoppingNavController.m; sourceTree = "<group>"; };
 		BD4EEF951CC4D01E00FF1B1D /* HZShoppingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZShoppingController.h; sourceTree = "<group>"; };
 		BD4EEF961CC4D01E00FF1B1D /* HZShoppingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZShoppingController.m; sourceTree = "<group>"; };
+		BD8DB9E91CC9C7D800C415E3 /* Xiaohongshu.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Xiaohongshu.pch; sourceTree = "<group>"; };
+		BDF5B1321CC71EE900590FAE /* HZHomePageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZHomePageCollectionViewCell.h; sourceTree = "<group>"; };
+		BDF5B1331CC71EE900590FAE /* HZHomePageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZHomePageCollectionViewCell.m; sourceTree = "<group>"; };
+		BDF5B1341CC71EE900590FAE /* HZHomePageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZHomePageCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +253,9 @@
 		BD4EEF5B1CC4C8FA00FF1B1D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BDF5B1321CC71EE900590FAE /* HZHomePageCollectionViewCell.h */,
+				BDF5B1331CC71EE900590FAE /* HZHomePageCollectionViewCell.m */,
+				BDF5B1341CC71EE900590FAE /* HZHomePageCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -361,6 +370,7 @@
 				BD4EEF211CC4C6A000FF1B1D /* AppDelegate.m */,
 				BD4EEF1E1CC4C6A000FF1B1D /* main.m */,
 				BD4EEF2E1CC4C6A000FF1B1D /* LaunchScreen.storyboard */,
+				BD8DB9E91CC9C7D800C415E3 /* Xiaohongshu.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -562,6 +572,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD4EEF301CC4C6A000FF1B1D /* LaunchScreen.storyboard in Resources */,
+				BDF5B1361CC71EE900590FAE /* HZHomePageCollectionViewCell.xib in Resources */,
 				BD4EEF2D1CC4C6A000FF1B1D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,6 +606,7 @@
 				BD4EEF851CC4CEF800FF1B1D /* HZMineController.m in Sources */,
 				BD4EEF821CC4CE5800FF1B1D /* HZMessageController.m in Sources */,
 				BD4EEF8E1CC4CFAC00FF1B1D /* HZMessageNavController.m in Sources */,
+				BDF5B1351CC71EE900590FAE /* HZHomePageCollectionViewCell.m in Sources */,
 				BD4EEF911CC4CFBE00FF1B1D /* HZMineNavController.m in Sources */,
 				BD4EEF8B1CC4CF8300FF1B1D /* HZHomePageNavController.m in Sources */,
 				BD4EEF941CC4D00500FF1B1D /* HZShoppingNavController.m in Sources */,
@@ -734,6 +746,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Xiaohongshu/Classes/Other/Xiaohongshu.pch";
 				INFOPLIST_FILE = Xiaohongshu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZhangHuiZi.iOS.Xiaohongshu;
@@ -745,6 +759,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Xiaohongshu/Classes/Other/Xiaohongshu.pch";
 				INFOPLIST_FILE = Xiaohongshu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZhangHuiZi.iOS.Xiaohongshu;
